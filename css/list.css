@@ -1,0 +1,134 @@
+.sk {
+  position: absolute;
+  left: 190px;
+  top: 40px;
+  padding: 2px 0 0 14px;
+  width: 70px;
+  height: 30px;
+  border-left: 1px solid #c81523;
+}
+.nav {
+  overflow: hidden;
+}
+
+.nav .sk_list,
+.sk_con {
+  float: left;
+}
+.sk_list ul li,
+.sk_con ul li {
+  float: left;
+}
+
+.sk_list ul li a {
+  display: block;
+  font-size: 16px;
+  padding: 0 30px;
+  font-weight: 700;
+  line-height: 47px;
+  color: #000;
+}
+.sk_con ul li a {
+  display: block;
+  font-size: 14px;
+  padding: 0 20px;
+  font-weight: 400;
+  line-height: 47px;
+}
+.sk_con ul li:last-child a::after {
+  padding-left: 5px;
+  content: "\e642";
+  font-family: "iconfont";
+}
+.sk_hd a {
+  display: block;
+}
+.sk_bd ul li {
+  float: left;
+  margin-right: 13px;
+  width: 290px;
+  height: 460px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+.sk_bd ul li a {
+  display: block;
+  padding-top: 10px;
+}
+.sk_bd .seckill_mod_name {
+  margin-top: 10px;
+  padding: 0 15px;
+  font-size: 14px;
+  text-align: left;
+  color: #787878;
+}
+.sk_bd .seckill_mod_info {
+  padding: 5px 15px 0;
+  text-align: left;
+}
+.sk_bd .seckill_mod_price_now {
+  font-size: 24px;
+  color: #df3033;
+  font-weight: 400;
+}
+.sk_bd .seckill_mod_price_now::before {
+  content: "¥";
+  font-size: 18px;
+}
+.sk_bd .seckill_mod_price_before {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #666;
+  text-decoration: line-through;
+}
+.sk_bd .seckill_mod_price_before::before {
+  content: "¥";
+  font-size: 14px;
+}
+.sk_bd .jindutiao {
+  position: relative;
+  height: 75px;
+  text-align: center;
+}
+.sk_bd .jindutiao > i {
+  float: left;
+  font-size: 12px;
+  color: #707070;
+}
+.sk_bd .jindutiao .jdt {
+  margin: 4px 10px 0;
+  float: left;
+  display: block;
+  width: 132px;
+  height: 12px;
+  text-align: center;
+  border: 1px solid #ed292d;
+  border-radius: 4px;
+}
+.sk_bd .jindutiao .jdt i {
+  display: block;
+  width: 0px;
+  height: 10px;
+  background-color: red;
+  transition: all 3s;
+}
+.sk_bd button {
+  position: absolute;
+  bottom: -10px;
+  left: -16px;
+  margin-top: 15px;
+  width: 290px;
+  height: 48px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #b1181a;
+}
+.sk_bd .jdt:hover i {
+  width: 130px;
+}
+.sk_bd ul li:hover {
+  border: 1px solid #b1181a;
+}
